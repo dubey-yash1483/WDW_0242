@@ -9,7 +9,7 @@
     <h1 >Hotel Room Booking Form</h1>
     <form action="#" method="post">
         <label  for="name">Full Name</label>
-        <input type="text" id="name" placeholder="Enter Your Name"> 
+        <input type="text" id="name" placeholder="Enter Your Name" required> 
         <br> <br>
         <label for="email">Email</label>
         <input type="email" id="email" placeholder="Enter Your Email Id" required>
@@ -19,13 +19,13 @@
         <br><br>
 
          <label for="checkin">Check-in Date</label>
-         <input type="date" id="checkin" placeholder="Enter Date">
+         <input type="date" id="checkin" placeholder="Enter Date" required>
          <br><br>
          <label for="checkout">Check-out Date</label>
-         <input type="date" id="checkout" placeholder="Enter Date">
+         <input type="date" id="checkout" placeholder="Enter Date" required>
          <br><br>
          <label for="room">Room Type</label>
-         <select name="" id="room">
+         <select name="" id="room" required>
             <option value="">Choose Room Type</option>
             <option value="Single">Single</option>
             <option value="Double">Double</option>
@@ -33,7 +33,7 @@
          </select>
          <br><br>
          <label for="guest">Number of Guests</label>
-         <input type="number" name="" id="guest"  min="1" max="10">
+         <input type="number" name="" id="guest"  min="1" max="10" required>
          <br><br>
          <label for="request">Special Request:</label><br>
          <textarea id="request" row="4" cols="50" placeholder="Enter any special request"></textarea>
