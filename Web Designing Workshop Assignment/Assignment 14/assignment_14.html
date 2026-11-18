@@ -1,11 +1,38 @@
 <!DOCTYPE html>
 <html>
+    <!-- Aim: To place a table inside a cell and make a wide table scroll on small screens  -->
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Nested and Responsive Tables</title>
-    </head>
+        <style>
+        table {
+            border-collapse: collapse;
+        }
 
-    <!-- Aim: To place a table inside a cell and make a wide table scroll on small screens  -->
-     
+        th, td {
+            border: 1px solid black;
+            padding: 8px;
+        }
+
+        .container {
+            overflow-x: auto;
+        }
+    </style>
+    </head>
+    <body>
+        <div class="container">
+
+        <table>
+
+            <tr>
+                <th>Day</th>
+                <th>Lab Batches</th>
+                <th>Faculty</th>
+                <th>Room</th>
+                <th>Time</th>
+            </tr>
+
+                
+    </body>
 </html>
