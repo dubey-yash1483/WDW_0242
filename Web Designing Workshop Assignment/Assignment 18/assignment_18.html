@@ -79,8 +79,40 @@
                 </tr>
             </table>
 
-       
-        
+             <!-- Application Form -->
+            <form action="submit.php" method="POST">
+                <fieldset>
+                    <legend>Application Form</legend>
+
+                    <label for="name">Name:</label>
+                    <br>
+                    <input type="text" id="name" name="name" required>
+                    <br><br>
+
+                    <label for="email">Email:</label>
+                    <br>
+                    <input type="email" id="email" name="email" required>
+                    <br><br>
+
+                    <label for="course">Course:</label>
+                    <br>
+
+                    <select id="course" name="course">
+                        <option>B.Tech CSE</option>
+                        <option>BCA</option>
+                    </select>
+                    <br><br>
+
+                    <label for="statement">Statement:</label>
+                    <br>
+
+                    <textarea id="statement" name="statement"
+                        rows="4" cols="48"></textarea>
+                    <br><br>
+
+                    <button type="submit">Apply</button>
+                </fieldset>
+            </form>
         </main>
     </body>
 </html>
